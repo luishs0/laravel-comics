@@ -8,4 +8,25 @@
     padding: .3rem;
 }
 
+.container-navbar {
+    background-color: #f8f9fa;
+
+    .container-fluid {
+        padding: 0;
+
+        .logo-dc {
+            height: 100%;
+
+            img {
+                height: 3rem;
+            }
+        }
+
+        .active {
+            color: #0282f9;
+        }
+
+    }
+}
+
 // /HEADER
