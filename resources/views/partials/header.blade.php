@@ -35,22 +35,22 @@
                                 <a class="nav-link active" href="#">COMICS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">MOVIES</a>
+                                <a class="nav-link" href="">MOVIES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">TV</a>
+                                <a class="nav-link" href="">TV</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">GAMES</a>
+                                <a class="nav-link" href="">GAMES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">COLLECTIBLES</a>
+                                <a class="nav-link" href="">COLLECTIBLES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">VIDEOS</a>
+                                <a class="nav-link" href="">VIDEOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">NEWS</a>
+                                <a class="nav-link" href="">NEWS</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -77,4 +77,13 @@
         </div>
     </div>
     {{-- /NAVBAR --}}
+
+
+    {{-- HEADER BOTTOM --}}
+
+    <div class="jumbo">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
+    </div>
+
+    {{-- /HEADER BOTTOM --}}
 </header>
